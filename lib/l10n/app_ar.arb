@@ -1,0 +1,16 @@
+{
+  "title": "مثال للموضوع واللغات المتعددة في Flutter",
+  "display": "{theme} تم تطبيق الموضوع!",
+  "@display": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "theme": {
+        "type": "String"
+      }
+    }
+  },
+  "selectLanguage": "اختر لغة",
+  "english": "إنجليزي",
+  "arabic": "عربي",
+  "cancel": "يلغي"
+}

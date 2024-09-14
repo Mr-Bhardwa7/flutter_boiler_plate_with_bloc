@@ -1,0 +1,16 @@
+{
+  "title": "Theme and Multilingual example in Flutter",
+  "display": "{theme} theme applied!",
+  "@display": {
+    "description": "A message with a single parameter",
+    "placeholders": {
+      "theme": {
+        "type": "String"
+      }
+    }
+  },
+  "selectLanguage": "Select a language",
+  "english": "English",
+  "arabic": "Arabic",
+  "cancel": "Cancel"
+}
