@@ -43,4 +43,8 @@ project
 3. LHS and RHS supported
 4. Bloc and Cubit state management example
 
-**Screenshots**
+### Showcase
+
+|                                                      Screenshot 1                                                      |                                                       Screenshot 2                                                       |                                                       Screenshot 3                                                       |
+| :--------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+| ![Async-bounce](https://github.com/Mr-Bhardwa7/flutter_boiler_plate_with_bloc/blob/master/public/image-2.png?raw=true) | ![Delayed-bounce](https://github.com/Mr-Bhardwa7/flutter_boiler_plate_with_bloc/blob/master/public/image-3.png?raw=true) | ![Delayed-bounce](https://github.com/Mr-Bhardwa7/flutter_boiler_plate_with_bloc/blob/master/public/image-1.png?raw=true) |
