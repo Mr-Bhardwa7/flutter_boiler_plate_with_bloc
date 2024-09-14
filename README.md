@@ -19,6 +19,10 @@ project
             └─── localization
             |    localization_cubit.dart
             |    localization_state.dart
+    └─── l10n
+         |   app_ar.arb
+         |   app_en.arb
+         |   l10n.dart
     │   main.dart
     │   theme.dart
 │   README.md
