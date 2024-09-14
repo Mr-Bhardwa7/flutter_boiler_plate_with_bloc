@@ -1,16 +1,46 @@
-# easy_dsa
+# Flutter App Biolerplate With BLOC
 
-A new Flutter project.
+##### version: 0.0.1
 
-## Getting Started
+A project structure is design on flutter with the bloc state management tool
 
-This project is a starting point for a Flutter application.
+**Project Structure**
 
-A few resources to get you started if this is your first Flutter project:
+```
+project
+└─── lib
+    └─── store
+        └─── bloc
+            └─── theme
+            |   theme_bloc.dart
+            |   theme.event.dart
+            |   theme.state.dart
+        └─── cubit
+            └─── localization
+            |    localization_cubit.dart
+            |    localization_state.dart
+    │   main.dart
+    │   theme.dart
+│   README.md
+│   ...
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**How to use this biolerplate**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Fork the repository **"flutter_boiler_plate_with_bloc"**.
+2. Create a new repository
+   - Under **"Repository template"** used your fork **"flutter_boiler_plate_with_bloc"** repository as a template
+   - Fill the below field and create repository
+3. Clone your repository and change package name.
+   - Change the package name under the pubspec.yaml and all the pages which import file with package name and under AndroidManifest file.
+4. You are ready to start development.
+
+**Implemented Features**
+
+1. Light and Dark theme management
+2. Multiliungal
+   - English and Arabic lanuage implemented for example
+3. LHS and RHS supported
+4. Bloc and Cubit state management example
+
+**Screenshots**
