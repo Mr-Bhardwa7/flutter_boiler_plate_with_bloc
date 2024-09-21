@@ -1,6 +1,6 @@
 # Flutter App Biolerplate With BLOC
 
-##### version: 0.0.1
+![Static Badge](https://img.shields.io/badge/Build-Passing-brightgreen) ![Static Badge](https://img.shields.io/badge/Version-0.0.2-brightgreen) ![Static Badge](https://img.shields.io/badge/State%20Management-BLOC-yellow) ![Static Badge](https://img.shields.io/badge/Route%20Manager-ROUTEFLY-blue) ![Static Badge](https://img.shields.io/badge/Dark%20Theme-Light%20Theme%20-white) ![Static Badge](https://img.shields.io/badge/Support-Multilingual%20-violet) ![Static Badge](https://img.shields.io/badge/Dart%203-Compatible%20-green)
 
 A project structure is design on flutter with the bloc state management tool
 
@@ -9,6 +9,10 @@ A project structure is design on flutter with the bloc state management tool
 ```
 project
 └─── lib
+	└─── app
+		└─── ...
+		  |   app_page.dart
+          |   app_widget.dart
     └─── store
         └─── bloc
             └─── theme
@@ -24,6 +28,7 @@ project
          |   app_en.arb
          |   l10n.dart
     │   main.dart
+	│   routes.g.dart
     │   theme.dart
 │   README.md
 │   ...
@@ -46,6 +51,11 @@ project
    - English and Arabic lanuage implemented for example
 3. LHS and RHS supported
 4. Bloc and Cubit state management example
+5. Routing machinism like NEXT JS (folder based route generation)
+
+**Routing**
+To generate the new routes in the project run this command `dart run routefly`
+Check routing document on [routefly pub](https://pub.dev/packages/routefly "routefly pub")
 
 ### Showcase
 
